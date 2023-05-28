@@ -1,8 +1,8 @@
-"""Test the functions in src.pfalgorithms_richelbilderbeek.medium_solutions."""
+"""Test the functions in src.pfalgorithms_richelbilderbeek.algorithm_solutions."""
 import unittest
 from random import seed
 
-from pfalgorithms_richelbilderbeek.testing_solutions import (
+from pfalgorithms_richelbilderbeek.algorithms_solutions import (
     flip_coin,
     get_digits,
     roll_dice,
@@ -11,7 +11,7 @@ from pfalgorithms_richelbilderbeek.testing_solutions import (
 
 class TestMediumSolutions(unittest.TestCase):
 
-    """Class to test the functions in src.pfalgorithms_richelbilderbeek.medium_solutions."""
+    """Class to test the functions in algorithm_solutions.py."""
 
     def test_flip_coin(self):
         """Test 'flip_coin'."""

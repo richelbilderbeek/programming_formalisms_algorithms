@@ -4,7 +4,7 @@ Medium-sized project uses in the UPPMAX Programming Formalisms course.
 """
 import cProfile
 
-from src.pfalgorithms_richelbilderbeek.medium_solutions import (
+from pfalgorithms_richelbilderbeek.algorithms_solutions import (
     get_datas,
     get_sorting_functions,
     get_speed_measurements,
