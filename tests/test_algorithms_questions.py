@@ -17,3 +17,10 @@ class TestMediumQuestions(unittest.TestCase):
         self.assertTrue(is_prime(2))
         self.assertFalse(is_prime(1))
         self.assertTrue(is_prime(11))
+
+    """Your tests here.
+
+    1: `get_digits(x)`
+    2a: `flip_coin(x)`
+    2b: `roll_dice(x)`
+    """
