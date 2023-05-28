@@ -1,8 +1,8 @@
-"""Test the functions in src.pfmp_richelbilderbeek.align_solutions."""
+"""Test the functions in src.pfalgorithms_richelbilderbeek.align_solutions."""
 import os.path
 import unittest
 
-from src.pfmp_richelbilderbeek.align_solutions import (
+from src.pfalgorithms_richelbilderbeek.align_solutions import (
     DnaSequence,
     are_functions,
     are_speed_measurements,
@@ -22,7 +22,7 @@ from src.pfmp_richelbilderbeek.align_solutions import (
 
 class TestAlignSolutions(unittest.TestCase):
 
-    """Class to test the functions in src.pfmp_richelbilderbeek.align_solutions."""
+    """Class to test the functions in src.pfalgorithms_richelbilderbeek.align_solutions."""
 
     def test_are_functions(self):
         """Test 'are_functions'."""

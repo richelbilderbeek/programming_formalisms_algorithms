@@ -1,8 +1,8 @@
-"""Test the functions in src.pfmp_richelbilderbeek.prime_solutions."""
+"""Test the functions in src.pfalgorithms_richelbilderbeek.prime_solutions."""
 import os.path
 import unittest
 
-from src.pfmp_richelbilderbeek.sort_solutions import (
+from src.pfalgorithms_richelbilderbeek.sort_solutions import (
     are_functions,
     are_speed_measurements,
     get_datas,
@@ -23,7 +23,7 @@ from src.pfmp_richelbilderbeek.sort_solutions import (
 
 class TestSortSolutions(unittest.TestCase):
 
-    """Class to test the functions in src.pfmp_richelbilderbeek.prime_solutions."""
+    """Class to test the functions in src.pfalgorithms_richelbilderbeek.prime_solutions."""
 
     def test_are_functions(self):
         """Test 'are_functions'."""

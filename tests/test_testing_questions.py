@@ -1,14 +1,14 @@
-"""Test the functions in src.pfmp_richelbilderbeek.medium_questions."""
+"""Test the functions in src.pfalgorithms_richelbilderbeek.medium_questions."""
 import unittest
 
-from pfmp_richelbilderbeek.testing_questions import (
+from pfalgorithms_richelbilderbeek.testing_questions import (
     is_prime,
 )
 
 
 class TestMediumQuestions(unittest.TestCase):
 
-    """Class to test the functions in src.pfmp_richelbilderbeek.medium_questions."""
+    """Class to test the functions in src.pfalgorithms_richelbilderbeek.medium_questions."""
 
     def test_is_prime(self):
         """Test 'is_prime'."""

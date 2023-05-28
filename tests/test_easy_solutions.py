@@ -1,7 +1,7 @@
-"""Tests all function in src.pfmp_richelbilderbeek.easy_solutions."""
+"""Tests all function in src.pfalgorithms_richelbilderbeek.easy_solutions."""
 import unittest
 
-from src.pfmp_richelbilderbeek.easy_solutions import (
+from src.pfalgorithms_richelbilderbeek.easy_solutions import (
     are_numbers,
     are_strings,
     check_are_numbers,
@@ -23,7 +23,7 @@ from src.pfmp_richelbilderbeek.easy_solutions import (
 
 class TestEasySolutions(unittest.TestCase):
 
-    """Class to test the functions in src.pfmp_richelbilderbeek.easy_solutions."""
+    """Class to test the functions in src.pfalgorithms_richelbilderbeek.easy_solutions."""
 
     def test_are_numbers(self):
         """Test 'are_numbers'."""

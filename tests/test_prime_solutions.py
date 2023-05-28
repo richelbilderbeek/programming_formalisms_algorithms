@@ -1,7 +1,7 @@
-"""Test the functions in src.pfmp_richelbilderbeek.prime_solutions."""
+"""Test the functions in src.pfalgorithms_richelbilderbeek.prime_solutions."""
 import unittest
 
-from src.pfmp_richelbilderbeek.prime_solutions import (
+from src.pfalgorithms_richelbilderbeek.prime_solutions import (
     are_primes,
     are_primes_cache_with_dict,
     are_primes_cache_with_set,
@@ -14,7 +14,7 @@ from src.pfmp_richelbilderbeek.prime_solutions import (
 
 class TestPrimeSolutions(unittest.TestCase):
 
-    """Class to test the functions in src.pfmp_richelbilderbeek.prime_solutions."""
+    """Class to test the functions in src.pfalgorithms_richelbilderbeek.prime_solutions."""
 
     def test_are_primes(self):
         """Test 'are_primes'."""
