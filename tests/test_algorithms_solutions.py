@@ -2,7 +2,7 @@
 import unittest
 from random import seed
 
-from pfalgorithms_richelbilderbeek.algorithms_solutions import (
+from src.pfalgorithms_richelbilderbeek.algorithms_solutions import (
     flip_coin,
     get_digits,
     roll_dice,

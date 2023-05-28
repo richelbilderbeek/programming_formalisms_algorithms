@@ -1,7 +1,7 @@
 """Test the functions in src.pfalgorithms_richelbilderbeek.algorithm_questions."""
 import unittest
 
-from pfalgorithms_richelbilderbeek.algorithms_questions import (
+from src.pfalgorithms_richelbilderbeek.algorithms_questions import (
     is_prime,
 )
 
